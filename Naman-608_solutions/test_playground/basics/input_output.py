@@ -28,4 +28,4 @@ x,y,z = 67, 420 , 9000
 
 
 # 6 print statements is too much, can you get the same output in one print statement ?
-print(x,y,z, sep='\n\n\n')
+print(x,y,z, sep='\n') # single '\n' works
