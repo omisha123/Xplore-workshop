@@ -17,7 +17,7 @@ print(type(array)) # should output 'list'
 
 nums = [1,2,3,4]
 
-print(nums) # print it as a string joined by commas : 1,2,3,4
+print(",".join(map(str,nums))) # print it as a string joined by commas : 1,2,3,4
 
 
 name = input("Enter your name: ")
@@ -28,5 +28,5 @@ x,y,z = 67, 420 , 9000
 
 
 # 6 print statements is too much, can you get the same output in one print statement ?
-print(x+'\n'+y+'\n'+z)
+print(x,'\n',y,'\n',z)
 
